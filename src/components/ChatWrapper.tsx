@@ -17,7 +17,7 @@ const ChatWrapper = ({sessionId}:{sessionId:string}) => {
             {<Messaages messages={messages}/>}
         </div>
         <form onSubmit={handleSubmit}>
-        <input className="text-black" onChange={handleInputChange} type="text" value={input}/>
+        <input className="bg-white text-black" onChange={handleInputChange} type="text" value={input}/>
         <button type="submit">send</button>
         </form>
     </div>
